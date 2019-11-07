@@ -1,0 +1,52 @@
+{
+  "name": "@z1lab/auth",
+  "version": "0.0.0",
+  "description": "Nuxt authentication module.",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Alisson Roberto <alissoniecp@gmail.com>"
+    }
+  ],
+  "main": "lib/module/index.js",
+  "repository": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "test": "yarn lint && jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@nuxtjs/axios": "^5.8.0",
+    "consola": "^2.10.1",
+    "cookie": "^0.4.0",
+    "dotprop": "^1.2.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "nanoid": "^2.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "get-port": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "request": "latest",
+    "request-promise-native": "latest",
+    "standard-version": "latest"
+  }
+}
