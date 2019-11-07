@@ -1,6 +1,6 @@
 {
   "name": "@z1lab/auth",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Nuxt authentication module.",
   "license": "MIT",
   "contributors": [
@@ -9,7 +9,7 @@
     }
   ],
   "main": "lib/module/index.js",
-  "repository": "",
+  "repository": "https://github.com/z1lab/auth-nuxt.git",
   "publishConfig": {
     "access": "public"
   },
