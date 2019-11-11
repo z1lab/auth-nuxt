@@ -1,8 +1,9 @@
 {
   "name": "@z1lab/auth",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Nuxt authentication module.",
   "license": "MIT",
+  "author": "Alisson R. Araujo",
   "contributors": [
     "Alisson Roberto <alissoniecp@gmail.com>"
   ],
@@ -11,8 +12,17 @@
     "type": "git",
     "url": "git+https://github.com/z1lab/auth-nuxt.git"
   },
+  "bugs": {
+    "url": "https://github.com/z1lab/auth-nuxt/issues"
+  },
+  "homepage": "https://github.com/z1lab/auth-nuxt#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "dev": "nuxt example",
@@ -49,15 +59,5 @@
     "request": "latest",
     "request-promise-native": "latest",
     "standard-version": "latest"
-  },
-  "bugs": {
-    "url": "https://github.com/z1lab/auth-nuxt/issues"
-  },
-  "homepage": "https://github.com/z1lab/auth-nuxt#readme",
-  "directories": {
-    "example": "example",
-    "lib": "lib",
-    "test": "test"
-  },
-  "author": "Alisson R. Araujo"
+  }
 }
