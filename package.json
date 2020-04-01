@@ -27,7 +27,7 @@
     "lib"
   ],
   "dependencies": {
-    "@nuxtjs/axios": "^5.9.5",
+    "@nuxt/http": "^0.4.0",
     "consola": "^2.11.3",
     "cookie": "^0.4.0",
     "dotprop": "^1.2.0",
