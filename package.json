@@ -1,6 +1,6 @@
 {
   "name": "@z1lab/auth",
-  "version": "1.6.0",
+  "version": "1.6.1-rc1",
   "description": "Nuxt authentication module.",
   "license": "MIT",
   "author": "Alisson R. Araujo",
